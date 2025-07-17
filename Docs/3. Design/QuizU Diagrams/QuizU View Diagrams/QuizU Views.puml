@@ -1,0 +1,13 @@
+@startuml QuizU Views
+
+object Views {
+	Welcome
+	Create Account
+	Log In
+	Dashboard
+	Course Quiz List
+	Quiz Question
+	Quiz Results
+}
+
+@enduml
