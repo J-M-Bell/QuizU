@@ -1,0 +1,15 @@
+Quiz Use Case 'QuizU'
+
+@startuml 
+left to right direction
+actor "End User" as user
+rectangle Quiz {
+	usecase "Create Profile" as UC1
+	usecase "Take Quiz" as UC2
+	usecase "View Results" as UC3
+}
+
+user--> UC1
+user--> UC2
+user--> UC3
+@enduml
